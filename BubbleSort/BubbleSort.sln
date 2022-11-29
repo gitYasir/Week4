@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33110.190
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BubbleSortApp", "BubbleSortApp\BubbleSortApp.csproj", "{253CA740-3B43-4208-8EF6-C9D8BCBE8276}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BubbleSortTests", "BubbleSortTests\BubbleSortTests.csproj", "{9028A1C2-19DC-487A-BE22-2D0DEA094795}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{253CA740-3B43-4208-8EF6-C9D8BCBE8276}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{253CA740-3B43-4208-8EF6-C9D8BCBE8276}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{253CA740-3B43-4208-8EF6-C9D8BCBE8276}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{253CA740-3B43-4208-8EF6-C9D8BCBE8276}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9028A1C2-19DC-487A-BE22-2D0DEA094795}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9028A1C2-19DC-487A-BE22-2D0DEA094795}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9028A1C2-19DC-487A-BE22-2D0DEA094795}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9028A1C2-19DC-487A-BE22-2D0DEA094795}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {76AC1547-DA1B-4FED-AD7B-C330C8017617}
+	EndGlobalSection
+EndGlobal
