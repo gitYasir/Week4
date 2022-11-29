@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33122.133
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TwoArraysApp", "TwoArraysApp\TwoArraysApp.csproj", "{F3CD0046-E1F0-4F29-BCBB-A2B3325FC1A4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TwoArraysTests", "TwoArraysTests\TwoArraysTests.csproj", "{6FC8DD28-9F7C-47DD-A2E1-EEA3F035DB53}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F3CD0046-E1F0-4F29-BCBB-A2B3325FC1A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F3CD0046-E1F0-4F29-BCBB-A2B3325FC1A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F3CD0046-E1F0-4F29-BCBB-A2B3325FC1A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F3CD0046-E1F0-4F29-BCBB-A2B3325FC1A4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6FC8DD28-9F7C-47DD-A2E1-EEA3F035DB53}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6FC8DD28-9F7C-47DD-A2E1-EEA3F035DB53}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6FC8DD28-9F7C-47DD-A2E1-EEA3F035DB53}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6FC8DD28-9F7C-47DD-A2E1-EEA3F035DB53}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {227F99B9-C870-444A-B5C4-5F82BE5F0A75}
+	EndGlobalSection
+EndGlobal

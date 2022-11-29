@@ -3,9 +3,14 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.4.33110.190
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BubbleSortApp", "BubbleSortApp\BubbleSortApp.csproj", "{253CA740-3B43-4208-8EF6-C9D8BCBE8276}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BubbleSortApp", "BubbleSortApp\BubbleSortApp.csproj", "{253CA740-3B43-4208-8EF6-C9D8BCBE8276}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BubbleSortTests", "BubbleSortTests\BubbleSortTests.csproj", "{9028A1C2-19DC-487A-BE22-2D0DEA094795}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BubbleSortTests", "BubbleSortTests\BubbleSortTests.csproj", "{9028A1C2-19DC-487A-BE22-2D0DEA094795}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{C8E4C088-EA3D-4149-932E-B3606AA8008B}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
