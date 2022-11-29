@@ -1,13 +1,20 @@
 ﻿namespace BubbleSortApp {
     public class Program {
-        static void Main( string[] args ) {
-            Console.WriteLine( "Hello, World!" );
-        }
+
         public static int[] BubbleSort( int[] arr ) {
-
-
-
-            return new[] { 1, 2 };
+            int runs = arr.Length;
+            while ( runs > 1 ) {
+                for ( int j = 1; j < arr.Length; j++ ) {
+                    int temp = 0;
+                    if ( arr[ j - 1 ] > arr[ j ] ) {
+                        temp = arr[ j - 1 ];
+                        arr[ j - 1 ] = arr[ j ];
+                        arr[ j ] = temp;
+                    }
+                }
+                runs--;
+            }
+            return arr;
         }
     }
 }
