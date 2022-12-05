@@ -3,3 +3,7 @@
 
 #### SQL syntax sequence
 ![image](https://user-images.githubusercontent.com/93840866/205742209-389ce57f-9d16-49ed-b741-de4bec65e22e.png)
+
+#### Processing sequence
+![image](https://user-images.githubusercontent.com/93840866/205742664-f7a1f1ae-2009-40da-bdc1-317426870942.png)
+
