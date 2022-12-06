@@ -32,11 +32,13 @@ FROM orders
 WHERE ShipCountry in('UK','USA') AND Freight > 100;
 
 -- 1.7
-SELECT od.OrderID AS "Order ID", FORMAT(od.Discount * od.UnitPrice * od.Quantity,  '$ ' + '0,###.00') AS "Total Discount"
-FROM [Order Details] od
-WHERE (od.Discount * od.UnitPrice * od.Quantity) = (
-    SELECT MAX(od.Discount * od.UnitPrice * od.Quantity)
-    FROM [Order Details]);
+SELECT od.OrderID AS "Order ID",  
+       FORMAT((od.UnitPrice * od.Quantity) * od.Discount,'C') AS "Discount Amount"
+    FROM [Order Details] od
+    WHERE (UnitPrice * Quantity) * Discount = (
+        SELECT MAX((UnitPrice * Quantity) * Discount)
+        FROM [Order Details]
+        )
 
 
 -- 1.8
