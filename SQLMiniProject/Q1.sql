@@ -32,13 +32,16 @@ FROM orders
 WHERE ShipCountry in('UK','USA') AND Freight > 100;
 
 -- 1.7
-SELECT TOP 2 od.OrderID AS "Order ID", FORMAT(od.Discount * od.UnitPrice * od.Quantity,  '$ ' + '0,###.00') AS "Total Discount"
+SELECT od.OrderID AS "Order ID", FORMAT(od.Discount * od.UnitPrice * od.Quantity,  '$ ' + '0,###.00') AS "Total Discount"
 FROM [Order Details] od
-ORDER BY 2 DESC;
+WHERE (od.Discount * od.UnitPrice * od.Quantity) = (
+    SELECT MAX(od.Discount * od.UnitPrice * od.Quantity)
+    FROM [Order Details]);
 
 
 -- 1.8
-SELECT ep.FirstName + ' ' + ep.LastName AS "Employee Name", e.FirstName + ' ' + e.LastName AS "Reports To"
+SELECT e.FirstName + ' ' + e.LastName AS "Employee Name", ep.FirstName + ' ' + ep.LastName AS "Reports To"
 FROM Employees e
 INNER JOIN Employees ep
-ON e.EmployeeID = ep.ReportsTo
+ON e.ReportsTo = ep.EmployeeID
+ORDER BY 2, 1;
